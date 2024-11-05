@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH VIRTUAL CAMPUS</title>
+    <link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+</head>
+<body>
+    <header> <img src="img/2.png" alt="Tech Virtual Campus Logo" class="logo">
+   <h1>TECH VIRTUAL CAMPUS</h1>   
+    </header>
+    <nav>
+       
+        <ul>
+            <li><a class="homeblack" href="Home.html">HOME</a></li>
+            <li><a class="homeblack" href="slogin.html">Student Login</a></li>
+            <li><a class="homered" href="Adminlogin.html">Instructor Login</a></li>
+            
+      
+             <!-- Enroll button -->
+    
+        </ul>
+    </nav>
+	</header>
+	<div class="divider"></div>
+
+	<div class="loginbox">
+    <img src="assets/admin.png" class="avatar">
+        <h1> Enter Details to Login </h1>
+        <form action="process/aprocess.php" method="POST">
+            <p>Email</p>
+            <input type="text" name="mailuid" placeholder="Enter Email Address" required="required">
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Login">
+           
+        </form>
+        
+    </div>
+	
+</body>
+<footer>
+	
+</html>

@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00FFFF;
+    color: #800000;
+    display: flex;
+    align-items: center;
+    padding: 0.5px;
+}
+
+
+.header-title {
+    margin: 0;
+}
+.p 
+{
+margin: 0;
+position: relative;
+margin-top: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000080;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration:underline;
+}
+
+nav ul li a:hover {
+    background-color: #800000;
+}
+#about-us {
+    margin: 10px 0;
+}
+
+#about-us h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20spx;
+}
+
+#about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 100px;
+}
+
+footer {
+    background-color: #00FFFF;
+    color: #800000;
+    text-align: center;
+    padding: 20px;
+}
+/* Other styles omitted for brevity */
+
+.enroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000080;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.enroll-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.enroll-button:hover {
+    background-color: #800000;
+}

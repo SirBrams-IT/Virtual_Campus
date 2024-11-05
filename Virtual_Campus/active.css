@@ -1,0 +1,22 @@
+active.css
+/* Add your CSS styling here */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: #007bff; /* Change color for active menu item */
+}

@@ -1,0 +1,66 @@
+body{
+    width: 1350px;
+    height: 300px;
+}
+form {
+    width: 350px;
+    margin: 0 auto; /* Center the form horizontally */
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for login form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+}
+
+/* Style for login form inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for message display */
+#message {
+    margin-top: 10px;
+    color: #ff0000;
+}
+/* Style for centered links */
+.centered-links {
+    text-align: center;
+    margin-top: 2px;
+}
+
+/* Style for individual links */
+.centered-links a {
+    display: inline-block;
+    margin: 0px; 
+    text-decoration: none; 
+    color: red; 
+}
+.centered-links a:hover{
+    color: black;
+}
